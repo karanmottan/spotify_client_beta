@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.container{
+    background-color: black;
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+}
+
+.smallerContainer{
+    border: 3px solid white;
+    border-radius:2rem;
+    margin-top: 100px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.linkholder{
+    margin-top:80px;
+    position: relative;
+    top:13px;
+}
+
+.logoholder{
+    margin-top: 10%;
+}
+
+.loginlink {
+    background: rgb(29,185,84);
+    text-decoration: none;
+    color: white;
+    border-radius: 90px;
+    padding: 20px;
+    font-weight: 600;       
+    font-size: 20px;
+    font-family: Montserrat;
+    transition: 0.5s;
+}
+
+.loginlink:hover{
+    background:rgb(29,205,84);
+    padding: 30px;
+}

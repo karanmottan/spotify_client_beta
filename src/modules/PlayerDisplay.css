@@ -1,0 +1,105 @@
+.box{
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    height: 14vh;
+    background-color: rgb(36,36, 36);
+    display: flex;
+    justify-content: center;
+}
+
+.startPause{
+    margin-top: 1em;
+    border: none;
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+}
+
+.startPause::before{
+    content: '||';
+    font-size: 0;
+    transition:  0.3s;
+}
+.startPause::after{
+    display: inline-block;
+    content: "\25BA";
+    margin-left: 15%;
+    font-size: 1.5rem;
+    transition:  0.3s;
+}    
+
+.startPause.active::after{
+    font-size: 0;
+    transform: rotate(90deg);
+}    
+
+.startPause.active::before{
+    font-size: 1.5rem;
+    margin-left: 15%;
+    font-weight: 900;
+}
+
+.forward{
+        margin-top: 1em;
+        border: none;
+        border-radius: 50%;
+        height: 2rem;
+        width: 2rem;
+        margin-left: 3%;
+        margin-top: 1.5%;
+}
+
+.backward{
+    margin-top: 1em;
+        border: none;
+        border-radius: 50%;
+        height: 2rem;
+        width: 2rem;
+        margin-right: 3%;
+        margin-top:1.5%;
+}
+
+.repeat{
+    margin-top: 1em;
+        border: none;
+        border-radius: 50%;
+        height: 2rem;
+        width: 2rem;
+        margin-left: 3%;
+        margin-top: 1.5%;
+}
+
+.imgRepeat{
+    border-radius: 50%;
+        height: 2rem;
+        width: 2rem;
+        position: relative;
+        right:32%;
+        bottom:5%;
+}
+
+.imgShuffle{
+    border-radius: 50%;
+        height: 2rem;
+        width: 2rem;
+        position: relative;
+        right:32%;
+        bottom:5%;
+}
+
+.shuffle{
+    margin-top: 1em;
+        border: none;
+        border-radius: 50%;
+        height: 2rem;
+        width: 2rem;
+        margin-right: 3%;
+        margin-top: 1.5%
+
+}
+
+.current_track{
+   position: relative;
+   right:55%;
+}

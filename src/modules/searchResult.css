@@ -1,0 +1,27 @@
+.search_main{
+    background-color: rgb(18,18,18);
+    position:  fixed;
+    left:0;
+    top: 7%;
+    width: 40%;
+    border: 2px solid yellow;
+}
+
+.header{
+    color: white;
+    font-size: 25px;
+    text-align: left;
+}
+
+.artist_display , .tracks_display {
+    background-color: white;
+    border: 1px solid white;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.label{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left:30px;
+}
